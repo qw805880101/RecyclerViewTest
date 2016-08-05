@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="330px"
+                                     android:layout_marginBottom="20px"
+                                     android:layout_marginRight="20px"
+                                     android:orientation="horizontal"
+    >
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_short_2"
+        android:layout_width="335px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20px">
+
+        <TextView
+            android:id="@+id/item1_text_short"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#33ddff"
+            android:text="消息"
+            android:textColor="#000"
+            android:textSize="44px"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/rl_long_2"
+        android:layout_width="680px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20px">
+
+        <TextView
+            android:id="@+id/item1_text_long"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0033ff"
+            android:text="账户"
+            android:textColor="#ffffff"
+            android:textSize="44px"
+            />
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

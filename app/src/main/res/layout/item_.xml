@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     android:id="@+id/bg"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="330px"
+                                     android:orientation="horizontal">
+
+</com.zhy.autolayout.AutoLinearLayout>

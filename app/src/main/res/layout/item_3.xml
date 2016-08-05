@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+    >
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="680px"
+        android:layout_height="330px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#0033ff">
+
+        <TextView
+            android:id="@+id/tx_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单"
+            android:textColor="#ffffff"
+            android:textSize="44px"
+            />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>
